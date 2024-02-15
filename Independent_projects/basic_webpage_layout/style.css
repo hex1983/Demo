@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: hsl(0, 0%, 86%);
+    text-align: center;
+    padding: 300px;
+    background-image: url(/basic_webpage_layout/minecraft.jpg);
+    background-position: center;
+}
+
+.hero {
+    display: grid;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+
+}
+
+h1 {
+    color: #fff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+ul {
+    font-family: Arial, Helvetica, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    color: #fff;
+}
+
+button {
+    font-family: sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color:white;
+    background-color: aqua;
+    border-radius: 10px;
+    border: 2px;
+    height: 50px;
+    width: 150px;
+    box-shadow: 0px 14px 30px #000 ;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    background-color: rgb(39, 39, 39);
+    height: 50px;
+    color: white;
+
+}
+
+aside {
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+
+section {
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+
+article {
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+
+footer {
+    display: block;
+    clear: both;
+    background-color: lightgray;
+    text-align: center;
+    padding: 25px;
+}
+
+@media screen and (max-width: 600px) {
+    aside,section,article {
+        width: 100%;
+    }
+}

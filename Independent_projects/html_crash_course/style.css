@@ -1,0 +1,66 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: space-between;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    
+}
+
+.rect {
+    flex: 1;
+    border: 20px black solid;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.nav {
+    display: flex;
+    flex-direction: center;
+    height: 10vh;
+    justify-content: space-evenly;
+    background-color: #94bbea;
+    font-family: sans-serif, Helvetica;
+    font-size: 20px;
+    border-radius: 25px;
+}
+
+.navigation {
+    display: center;
+    flex-direction: space-evenly;
+    color: black;
+}
+
+.myBlog {
+    display: flex;
+    flex-direction: center;
+    height: 10vh;
+    justify-content: space-evenly;
+    font-family: sans-serif, Helvetica;
+    font-size: 50px;
+}
+
+h3, p, h2, h1, h4 {
+    display: flex;
+    justify-content: center;
+}
+
+.computer, .fig1, .fig2, .adult {
+    display: flex;
+    justify-content: center;
+}

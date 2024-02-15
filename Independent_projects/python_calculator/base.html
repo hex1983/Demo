@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+
+        input {
+            width: 200px;
+            padding: 10px;
+            font-size: 14px;
+            text-align: right;
+            margin-bottom: 10px;
+        }
+
+        button {
+            width: 50px;
+            height: 50px;
+            font-size: 16px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <input type="text" id="result-text" readonly>
+
+    <button onclick="onOperationPressed('C')">C</button>
+    <button onclick="onOperationPressed('/')">/</button>
+
+    <br>
+
+    <button onclick="onNumberPressed(7)">7</button>
+    <button onclick="onNumberPressed(8)">8</button>
+    <button onclick="onNumberPressed(9)">9</button>
+    <button onclick="onOperationPressed('*')">x</button>
+
+    <br>
+
+    <button onclick="onNumberPressed(4)">4</button>
+    <button onclick="onNumberPressed(5)">5</button>
+    <button onclick="onNumberPressed(6)">6</button>
+    <button onclick="onOperationPressed('-')">-</button>
+
+    <br>
+
+    <button onclick="onNumberPressed(1)">1</button>
+    <button onclick="onNumberPressed(2)">2</button>
+    <button onclick="onNumberPressed(3)">3</button>
+    <button onclick="onOperationPressed('+')">+</button>
+
+    <br>
+
+    <button onclick="onNumberPressed(0)">0</button>
+    <button onclick="onNumberPressed('.')">.</button>
+    <button onclick="onOperationPressed('=')">=</button>
+
+    <script>
+        function onNumberPressed(number) {
+            // Handle number button clicks
+        }
+
+        function onOperationPressed(operation) {
+            // Handle operation button clicks
+        }
+    </script>
+
+</body>
+</html>

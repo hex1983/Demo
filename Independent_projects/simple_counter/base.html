@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Counter</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="counter-container">
+        <div class="counter-title">
+            <p><strong>Counter Program</strong></p>
+        </div>
+        <div id="number-display">
+            <h1></h1>
+        </div>
+        
+        <div class="main-btns">
+            <div class="operation-row">
+                <div class="operation-row button">
+                    <button onclick="startCounter()">Start</button>
+                </div>
+                <div class="operation-row button">
+                    <button onclick="addCounter()">+</button>
+                </div>
+                <div class="operation-row button">
+                    <button onclick="subtractCounter()">-</button>
+                </div>
+                <div class="operation-row button">
+                    <button onclick="resetCounter()">reset</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

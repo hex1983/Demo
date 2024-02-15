@@ -1,0 +1,114 @@
+body {
+    background: url('musicBG.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    word-spacing: 1.4px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    background-color: var(--clr-light);
+}
+
+
+.container {
+    padding: 20em;
+    background-image: url("cloud.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70% 70%;
+    font-family: sans-serif;
+    font-weight: 80px;
+    font-size: 30px;
+}
+
+
+.inner-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+}
+
+#question {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.radio-answers {
+    margin-left: 150px;
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#start {
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 1px;
+    border-radius: 15px;
+    background-color: rgb(106, 224, 216);
+    font-size: 40px;
+}
+
+#submit {
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 1px;
+    border-radius: 15px;
+    background-color: rgb(106, 224, 216);
+    font-size: 20px;
+}
+
+#quit {
+    padding: 20px;
+    border: 1px;
+    border-radius: 15px;
+    margin-left: 240px;
+    background-color: rgb(106, 224, 216);
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+}
+
+#submit:hover {
+    opacity: 80%;
+}
+
+#submit:active {
+    background-color: rgb(90, 190, 183);
+}
+
+#quit:hover {
+    opacity: 80%;
+}
+
+#quit:active {
+    background-color: rgb(95, 190, 183);
+}
+
+#start:hover {
+    opacity: 80%;
+}
+
+#submit:active {
+    background-color: rgb(90, 190, 183);
+}
+
+.radio-answers {
+    padding-bottom: 10px;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+
+
